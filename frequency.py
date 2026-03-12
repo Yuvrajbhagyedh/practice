@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 num=[12,334,12,43,12,43,34,23,34]
 freq={}
 
@@ -8,4 +9,16 @@ for i in num:
         freq[i]=1    
 
 
+=======
+num=[12,334,12,43,12,43,34,23,34]
+freq={}
+
+for i in num:
+    if i in freq:
+        freq[i]+=1
+    else:
+        freq[i]=1    
+
+
+>>>>>>> 4d053d23d8d11bb514940fc8e750f65a0014dc4e
 print(freq)        
