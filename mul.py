@@ -3,4 +3,4 @@ mult=2
 res=0
 for i in lis:
     res+=mult*i
-print(res)git init
+print(res)
