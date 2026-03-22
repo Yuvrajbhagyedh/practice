@@ -1,7 +1,9 @@
 s=-121
-
+temp=s
+rev=0
 if s<0:
     print("its not ") 
+    
 
 while(temp>=0):
     digit=temp%10
