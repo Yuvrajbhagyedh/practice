@@ -1,30 +1,22 @@
- nav a{
-    text-decoration: none;
-    list-style-type: none;
-    color: white;
- }
- 
- nav{
-    
-    height: 45px;
+.topper{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
     align-items: center;
-    color: white;
+    background: #fb8282;
+    color:white;
+
+}
+nav :nth-child(1){
+    border-radius: 6px;
+    width: 260px;
+    height: 30px;
+}
+nav{
+    
     display: flex;
-    flex-direction:row;
-    gap: 30px;
-    justify-content: space-evenly;
-}
-.topper .logo{
-    display: flex;
-    justify-content: left;
-    background: #d1c8c8;
-}
-header{
-    background: #013368;
-}
-.searchi{
-    width: 320px;
-    height: 23px;
-    text-align: left;
-    border-radius: 3px;
+    gap: 20px;
+    margin-left: auto;
+  
+  
 }
