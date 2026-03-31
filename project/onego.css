@@ -1,3 +1,19 @@
-.topper{
+ nav{
+    list-style-type: none;
+    
+    height: 45px;
+    align-items: center;
+    color: wheat;
     display: flex;
+    flex-direction:row;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+.topper .logo{
+    display: flex;
+    justify-content: left;
+    background: #d1c8c8;
+}
+header{
+    background: #013368;
 }
