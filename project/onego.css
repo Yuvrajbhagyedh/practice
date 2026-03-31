@@ -7,14 +7,18 @@
     .topper{
     display: flex;
     padding: 20px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    background: #fb8282;
+    background:transparent;
     color:white;
     margin-bottom: 25px;
 
 }
-
+#ham img{
+    width:43px;
+    height:auto;
+    margin: 0;
+}
 .container{
     display: none;
     justify-content: center;
