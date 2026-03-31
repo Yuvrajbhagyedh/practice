@@ -1,9 +1,14 @@
- nav{
+ nav a{
+    text-decoration: none;
     list-style-type: none;
+    color: white;
+ }
+ 
+ nav{
     
     height: 45px;
     align-items: center;
-    color: wheat;
+    color: white;
     display: flex;
     flex-direction:row;
     gap: 30px;
@@ -16,4 +21,10 @@
 }
 header{
     background: #013368;
+}
+.searchi{
+    width: 320px;
+    height: 23px;
+    text-align: left;
+    border-radius: 3px;
 }
