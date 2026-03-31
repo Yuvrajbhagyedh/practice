@@ -14,6 +14,10 @@
     margin-bottom: 25px;
 
 }
+.logo img{
+    width:43px;
+    height:auto;
+}
 #ham img{
     width:43px;
     height:auto;
