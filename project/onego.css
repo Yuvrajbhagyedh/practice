@@ -1,9 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
- .topper{
+.topper{
        
     display: flex;
     padding: 20px;
@@ -24,11 +19,25 @@
     height:auto;
     margin: 0;
 }
+.container{
+   
 
+    left: 20%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    
+    
+    width: 250px;
+    height: 250px;
+    background: #d79595;
+
+}
     nav{
         position:relative;
         display: flex;
-       
+        flex-direction: column;
         gap: 20px;
         align-items: center;
         }
@@ -45,7 +54,9 @@
         height: 23px;
         text-align: center;
     }
-}
+
+
+
 
 
 @media (max-width:480px) {
