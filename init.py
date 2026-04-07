@@ -12,6 +12,9 @@ class student:
         avg=(a+b+c)/3
 
         print(avg)
+    @staticmethod
+    def hello():
+        print("hello")    
         
 
         
