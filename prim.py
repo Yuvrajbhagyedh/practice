@@ -6,6 +6,7 @@ class Student:
         print(f" my name is {name}")
 
 s1=Student("naanu")
+s2=Student("mindri mahesha")
 
 
 
