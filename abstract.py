@@ -21,5 +21,4 @@ class rangerover(car):
    
 s1=tesla()
 s1.start()    
-s2=rangerover()
-s2.ram()    
+    
