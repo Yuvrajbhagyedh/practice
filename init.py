@@ -20,4 +20,5 @@ class student:
         
 s1=student("yuvraj",99,98,97)
 s1.average()
+s1.hello()
        
