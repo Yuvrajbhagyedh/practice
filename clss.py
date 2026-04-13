@@ -1,12 +1,12 @@
 class bank:
     def __init__(self):
-        self.balance=80000
+        self.__balance=80000
 
     def debit(self,amouttaken):
-        self.balance-=amouttaken
+        self.__balance-=amouttaken
         print("the total amount is now :",self.balance)
     def credit(self,amount):
-        self.balance+=amount
+        self.__balance+=amount
         print("the toatal amount is now after credit is :",self.balance)
 
 s1=bank()
