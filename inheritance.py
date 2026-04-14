@@ -17,3 +17,4 @@ s1.hunt()
 s1.eats()
 
 s1.mm()
+print(lion.mro())
